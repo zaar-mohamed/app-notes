@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left,#ffefd5,#30829d );
+    font-family: cursive;
+}
+.heading{
+    color: #255a6c;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+}
+.info-text{
+    text-align: center;
+    color: #255a6c;
+    font-size: 18px;
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+.Note{
+    padding: 17px;
+    border-radius: 20px;
+    resize: none;
+    box-shadow: 0 0 3px rgba(0, 0,0,0.3);
+    font-size: 18px;
+    height: 200px;
+    color: rgb(94, 28, 28);
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.7);
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+
+}
+.Note::placeholder{
+    color: gray;
+    opacity: 0.5;
+}
+.Note:hover,.Note:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background: rgba(255,255,255,0.7);
+}
+.btn{
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 70px;
+    font-weight: 700;
+    color: #255a6c;
+    cursor: pointer;
+    background-color: rgb(235, 213, 186);
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: red;
+    color: aliceblue;
+}
